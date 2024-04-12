@@ -11,7 +11,7 @@ export default function App() {
           <h1 className="App-header-text">Mclean's Dictionary</h1>
         </header>
         <main>
-          <Dictionary defaultKeyword="love" />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
           {" "}
