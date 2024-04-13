@@ -1,4 +1,3 @@
-import logo from "./logo.png";
 import Dictionary from "./Dictionary";
 import "./App.css";
 
@@ -7,8 +6,9 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={logo} className="App-logo img-fluid" alt="logo" />
-          <h1 className="App-header-text">Mclean's Dictionary</h1>
+          <h1 className="App-header-text">
+            DICTIONARY <br /> 📖
+          </h1>
         </header>
         <main>
           <Dictionary defaultKeyword="sunset" />
