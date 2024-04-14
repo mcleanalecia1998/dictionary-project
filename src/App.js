@@ -15,7 +15,18 @@ export default function App() {
         </main>
         <footer className="App-footer">
           {" "}
-          <small>Coded by Alecia </small>
+          <small>
+            This project was coded by{" "}
+            <a href="https://github.com/mcleanalecia1998">Alecia</a> and is{" "}
+            <a href="https://github.com/mcleanalecia1998/dictionary-project">
+              open sourced on Github
+            </a>{" "}
+            and{" "}
+            <a href="https://clever-tiramisu-42286d.netlify.app/">
+              hosted on Netlify
+            </a>{" "}
+            💜
+          </small>
         </footer>
       </div>
     </div>
